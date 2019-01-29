@@ -1,0 +1,169 @@
+.hotsale {
+    /* padding-top: 22px; */
+    background-color: #f5f5f5;
+}
+
+.hotsale-header {
+    position: relative;
+    /* padding: 30px 0 10px; */
+}
+
+.hotsale-header h3 {
+    height: 58px;
+    line-height: 58px;
+    font-size: 20px;
+    font-weight: 400;
+    color: #333;
+}
+
+.hotsale-content {
+    width: 100%;
+    /* overflow: hidden; */
+}
+
+.hotsale-content ul {
+    font-size: 0;
+    height: 100%;
+    white-space: nowrap;
+    transition: all 0.5s ease;
+}
+
+.hotsale-content li {
+    display: inline-block;
+    margin-left: 14px;
+    margin-bottom: 26px;
+    width: 296px;
+    height: 415px;
+    background-color: #fff;
+    transition: all .2s linear;
+}
+
+.hotsale-content ul li:hover {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    transform: translate3d(0, -2px, 0);
+}
+
+.hotsale-content li:first-child {
+    margin-left: 0;
+}
+
+.hotsale-content .image {
+    width: 100%;
+    height: 220px;
+}
+
+.hotsale-content .image a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.hotsale-content .image a img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.hotsale-content p {
+    height: 72px;
+    margin: 28px 22px;
+    box-sizing: border-box;
+    line-height: 24px;
+    text-align: left;
+    font-size: 14px;
+    color: #333;
+    white-space: normal;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+}
+
+.hotsale-content h5 {
+    margin: 0 22px 10px;
+    box-sizing: border-box;
+    line-height: 18px;
+    text-align: left;
+    font-size: 12px;
+    color: #b0b0b0;
+}
+
+.hotsale-content .content {
+    margin: 0 22px;
+    height: 20px;
+    line-height: 20px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.hotsale-content .content .title {
+    display: inline-block;
+    max-width: 170px; 
+    text-align: left;
+    font-size: 12px;
+    color: #333;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    vertical-align: top;
+}
+
+.hotsale-content .content .price {
+    text-align: left;
+    font-size: 12px;
+    color: #ff6700;
+    vertical-align: top;
+}
+
+.hotsale-content .content em {
+    margin: 0 10px;
+    font-style: normal;
+    font-size: 12px;
+    color: #e0e0e0;
+    vertical-align: top;
+}
+
+/* .hotsale-content li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.hotsale-content li img {
+    display: block;
+    margin: 40px auto 15px;
+    width: 140px;
+    height: 140px;
+} */
+
+/* .hotsale-content li h3 {
+    padding: 10px;
+    font-size: 14px;
+    color: #212121;
+    text-align: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.hotsale-content li p {
+    padding: 10px;
+    font-size: 14px;
+    color: #ff6700;
+    text-align: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.hotsale-content li span {
+    padding: 10px;
+    font-size: 12px;
+    color: #757575;
+    text-align: center;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+} */

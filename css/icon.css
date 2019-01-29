@@ -1,0 +1,87 @@
+@font-face {
+  font-family: 'icon';
+  src: url('../font/iconfont.eot');
+  src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'),
+    url('../font/iconfont.woff2') format('woff2'),
+    url('../font/iconfont.woff') format('woff'),
+    url('../font/iconfont.ttf') format('truetype'),
+    url('../font/iconfont.svg#iconfont') format('svg');
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+  font-family: "icon" !important;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-mi:before {
+  content: "\e661";
+}
+
+.icon-search:before {
+  content: "\e651";
+}
+
+.icon-cart:before {
+  content: "\e63f";
+}
+
+.icon-left:before {
+  content: "\e660";
+}
+
+.icon-right:before {
+  content: "\e65f";
+}
+
+
+.icon-rolltop:before {
+  content: "\e64a";
+}
+
+.icon-play:before {
+  content: "\e637";
+}
+
+.icon-repaire:before {
+  content: "\e715";
+}
+
+.icon-sevendays:before {
+  content: "\e67d";
+}
+
+.icon-fifteendays:before {
+  content: "\e606";
+}
+
+.icon-gift:before {
+  content: "\e685";
+}
+
+.icon-location:before {
+  content: "\e64e";
+}
+
+.icon-contact:before {
+  content: "\e658";
+}
+
+/* side-bar */
+.icon-app:before {
+  content: "\e697";
+}
+
+.icon-user:before {
+  content: "\e659";
+}
+
+.icon-customer:before {
+  content: "\e61c";
+}
+
+.icon-backtop:before {
+  content: "\e64a";
+}
